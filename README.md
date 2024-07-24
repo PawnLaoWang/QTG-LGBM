@@ -6,7 +6,7 @@
 
 The QTG-LGBM publication, titled [*<ins>QTG-LGBM: A Method employed for Prioritizing QTL Causal Gene in Maize</ins>*] provides more detailed information. We kindly invite you to refer to it.
 
-The online service version of QTG-LGBM is also available for you. Please visit [*http://www.deepcba.com*](http://www.deepcba.com) to find out more information.
+The online service version of QTG-LGBM is also available for you. Please visit [*http://www.deepcba.com/QTG-LGBM*](http://www.deepcba.com/QTG-LGBM) to find out more information.
 
 ### QTG-LGBM Introduction
 We built a method called **QTG-LGBM** to predict *maize quantitative trait loci(QTL) candidate causal genes* base on *LightGBM*.
