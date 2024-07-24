@@ -4,23 +4,23 @@
 ## QTG-LGBM
 **QTG-LGBM** is a LightGBM-based approach for mining causal genes associated with quantitative trait loci in maize. LightGBM includes *voting parallel*, *Leaf-wise growth* and *Histogram algorithm* to reduce training time and memory consumption.
 
-For additional details, we kindly invite you to refer to the QTG-LGBM publication:  [*<ins>QTG-LGBM: A Method employed for Prioritizing QTL Causal Gene in Maize</ins>*]
+The QTG-LGBM publication, titled [*<ins>QTG-LGBM: A Method employed for Prioritizing QTL Causal Gene in Maize</ins>*] provides more detailed information. We kindly invite you to refer to it.
 
-We also offer you the **online service version** of QTG-LGBM. Please visit [*http://www.deepcba.com*](http://www.deepcba.com) for more information.
+The online service version of QTG-LGBM is also available for you. Please visit [*http://www.deepcba.com*](http://www.deepcba.com) to find out more information.
 
 ### QTG-LGBM Introduction
-We built a method called **QTG-LGBM** to predict *candidate causal genes* base on *maize quantitative trait loci(QTL)*.
+We built a method called **QTG-LGBM** to predict *maize quantitative trait loci(QTL) candidate causal genes* base on *LightGBM*.
 
 *QTG-LGBM* includes three sequential steps. as described in Sections B, C, and D above.
 
 ### Experimental Data Introduction
-In this study, the experimental data come from
-
+The experimental data in this study consisted of maize PH, FT, and the TBN.
+For more experimental data details, we kindly invite you to refer to the QTG-LGBM publication:  [*<ins>QTG-LGBM: A Method employed for Prioritizing QTL Causal Gene in Maize</ins>*]
 
 ## Environment  
-### package Environment
+### Package Environment
 This project is based on Python 3.8.16. The required environment is as follows:  
-|                 |    Version  |
+|    Package      |    Version  |
 |----------------:|-------------|
 |    numpy        |    1.22.4   |
 |    pandas       |    1.3.4    |
