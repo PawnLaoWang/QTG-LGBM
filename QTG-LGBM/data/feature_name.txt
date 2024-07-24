@@ -1,0 +1,35 @@
+ko1	Carbohydrate metabolism
+ko2	Energy metabolism
+ko3	Lipid metabolism
+ko4	Nucleotide metabolism
+ko5	Metabolism of other amino acids
+ko6	Glycan biosynthesis and metabolism
+ko7	Metabolism of cofactors and vitamins
+ko8	Metabolism of terpenoids and polyketides
+ko9	Biosynthesis of other secondary metabolites
+ko10	Transcription
+ko11	Translation
+ko12	Folding, sorting and degradation
+ko13	Replication and repair
+ko15	Membrane transport
+ko16	Signal transduction
+ko17	Transport and catabolism
+ko18	Environmental adaptation
+	
+GO_0000003	reproduction
+GO_0003824	catalytic activity
+GO_0005975	carbohydrate metabolic process
+GO_0006629	lipid metabolic process
+GO_0006950	response to stress
+GO_0007623	circadian rhythm
+GO_0009056	catabolic process
+GO_0009416	response to light stimulus
+GO_0009607	response to biotic stimulus
+GO_0009628	response to abiotic stimulus
+GO_0009790	embryo development
+GO_0009835	fruit ripening
+GO_0009908	flower development
+GO_0015979	photosynthesis
+GO_0030154	cell differentiation
+GO_0040007	growth
+GO_0040029	regulation of gene expression, epigenetic
