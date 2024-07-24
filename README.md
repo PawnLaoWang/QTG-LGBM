@@ -11,6 +11,23 @@ We also offer you the **online service version** of QTG-LGBM. Please visit [*htt
 ### QTG-LGBM Introduction
 We built a method called **QTG-LGBM** to predict *candidate causal genes* base on *maize quantitative trait loci(QTL)*.
 
-*QTG-LGBM* includes three sequential steps.
+*QTG-LGBM* includes three sequential steps. as described in Sections B, C, and D above.
 
-Fist setp, we
+### Experimental Data Introduction
+In this study, the experimental data come from
+
+
+## Environment  
+### package Environment
+This project is based on Python 3.8.16. The required environment is as follows:  
+|                 |    Version  |
+|----------------:|-------------|
+|    numpy        |    1.22.4   |
+|    pandas       |    1.3.4    |
+|    lightgbm     |    3.3.1    |
+|    scikit-learn |    1.0.1    |  
+
+For more required packages, please refer to the [requirements.txt](requirements.txt) file in this project.
+
+## Questions
+If you have any questions, requests, or comments, we kindly invite you to contact us at [wangchuang@webmail.hzau.edu.cn](wangchuang@webmail.hzau.edu.cn), [liujianxiao321@webmail.hzau.edu.cn](liujianxiao321@webmail.hzau.edu.cn).
