@@ -1,0 +1,1 @@
+python main.py --dt data/data_FT.csv --QTL_path data/example_QTL/QTL_unknown_gene/FT_Q001.csv --species Maize --trait FT --result_path result.csv
