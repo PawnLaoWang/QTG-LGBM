@@ -1,4 +1,4 @@
-# QTG-LGBM: A Method employed for Prioritizing QTL Causal Gene in Maize
+# QTG-LGBM: A Method of Prioritizing Causal Genes in Quantitative Trait Locus of Maize
 ![QTG-LGBM_summary](imgs/QTG-LGBM_summary.png)
 
 ## QTG-LGBM
