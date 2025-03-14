@@ -22,6 +22,7 @@ trait = args.trait
 writer_path = args.writer_path
 
 start_time = time.time()
+# suggest use para_set
 def cross_validation(df, train_set):
     k_numb_iter=50
     if trait == 'PH':
@@ -178,9 +179,9 @@ def cross_validation(df, train_set):
             
 
 def clean_feature_name(name):
-    # 只保留字母、数字和下划线
+    # Keep only letters, numbers, and underscores
     name = re.sub(r'[^\w]', '_', name)
-    # 删除前后的下划线
+    # the underscores before and after removing
     name = name.strip('_')
     return name
 # input feature list
