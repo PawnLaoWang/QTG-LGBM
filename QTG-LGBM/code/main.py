@@ -19,37 +19,34 @@ species = args.species
 trait = args.trait
 result_path = args.result_path
 
-if species == 'Maize' and trait == 'PH':
+if os.path.exists('./code/model/'+ '_' + trait + '_' + species +'_model.dat'):
+    model_path = './code/model/'+ '_' + trait + '_' + species +'_model.dat'
+# para_set
+else:
+    if species == 'Maize' and trait == 'PH':
     clf = lgb.LGBMClassifier(boosting_type='gbdt', num_leaves=15, reg_alpha=0.0, reg_lambda=1,
             max_depth=4, n_estimators=30, objective='binary',
             subsample=1, colsample_bytree=1, subsample_freq=1,is_unbalance=True,
             learning_rate=0.09, min_child_weight=5, random_state=20)
     scale = 30
     
-elif species == 'Maize' and trait == 'FT':
-    clf = lgb.LGBMClassifier(boosting_type='gbdt', num_leaves=15, reg_alpha=0.0, reg_lambda=1,
-            max_depth=9, n_estimators=50, objective='binary',
-            subsample=1, colsample_bytree=1, subsample_freq=1,is_unbalance=True,
-            learning_rate=0.07, min_child_weight=1, random_state=20)
-    scale = 130
+    elif species == 'Maize' and trait == 'FT':
+        clf = lgb.LGBMClassifier(boosting_type='gbdt', num_leaves=15, reg_alpha=0.0, reg_lambda=1,
+                max_depth=9, n_estimators=50, objective='binary',
+                subsample=1, colsample_bytree=1, subsample_freq=1,is_unbalance=True,
+                learning_rate=0.07, min_child_weight=1, random_state=20)
+        scale = 130
+        
+    elif species == 'Maize' and trait == 'TBN':
+        clf = lgb.LGBMClassifier(boosting_type='gbdt', num_leaves=15, reg_alpha=0.0, reg_lambda=1,
+                max_depth=7, n_estimators=50, objective='binary',
+                subsample=1, colsample_bytree=1, subsample_freq=1,is_unbalance=True,
+                learning_rate=0.07, min_child_weight=1, random_state=20)
+        scale = 120
     
-elif species == 'Maize' and trait == 'TBN':
-    clf = lgb.LGBMClassifier(boosting_type='gbdt', num_leaves=15, reg_alpha=0.0, reg_lambda=1,
-            max_depth=7, n_estimators=50, objective='binary',
-            subsample=1, colsample_bytree=1, subsample_freq=1,is_unbalance=True,
-            learning_rate=0.07, min_child_weight=1, random_state=20)
-    scale = 120
-
-else:
-    if os.path.exists('./code/model/'+ '_' + trait + '_' + species +'_model.dat'):
-        pass
     else:
         clf, scale = para_set(dt)
-
-# train model
-if os.path.exists('./code/model/'+ '_' + trait + '_' + species +'_model.dat'):
-    pass
-else:
+    # train model            
     model_path = train(dt, clf, scale, trait, species)
 
 # use QTL to predict
