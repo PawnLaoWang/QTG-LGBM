@@ -15,7 +15,7 @@ We built a method called **QTG-LGBM** to predict *maize quantitative trait loci(
 
 ### Experimental Data Introduction
 The experimental data in this study consisted of maize PH, FT, and the TBN.
-For more experimental data details, we kindly invite you to refer to the QTG-LGBM publication:  [*<ins>QTG-LGBM: A Method of Prioritizing Causal Genes in Quantitative Trait Locus of Maize</ins>*]
+For more experimental data details, we kindly invite you to refer to the QTG-LGBM publication:  [*<ins>QTG-LGBM: a method of prioritizing causal genes in quantitative trait locus in maize</ins>*]
 
 ## Environment  
 ### Package Environment
