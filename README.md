@@ -2,7 +2,7 @@
 ![QTG-LGBM_summary](imgs/QTG-LGBM_summary.png)
 
 ## QTG-LGBM
-**QTG-LGBM** is a LightGBM-based approach for mining causal genes associated with quantitative trait loci in maize. LightGBM includes *voting parallel*, *Leaf-wise growth* and *Histogram algorithm* to reduce training time and memory consumption.
+**QTG-LGBM** is a LightGBM-based method for mining causal genes associated with quantitative trait loci in maize. LightGBM includes *voting parallel*, *Leaf-wise growth* and *Histogram algorithm* to reduce training time and memory consumption.
 
 The QTG-LGBM publication, titled [*<ins>QTG-LGBM: a method of prioritizing causal genes in quantitative trait loci in maize</ins>*](http://www.deepcba.com/QTG-LGBM) provides more detailed information. We kindly invite you to refer to it.
 
